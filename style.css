@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    background-color: blueviolet;
+    float:left;
+    height: 50px;
+    width:100%; 
+}
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+label.logo .home{
+    color: white;
+}
+header ul{
+    float: right;
+    margin-right: 40px;
+}
+header ul li{
+    display: inline-block;
+    padding-right: 30px;
+    line-height: 50px;
+    margin: 0 5px;
+}
+header ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    color: rgb(183, 252, 229);
+}
+.container1 {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  #first-box{
+    
+    height: 280px;
+    flex-grow: 2;
+  }
+  #second-box{
+    margin-top: 20px;
+   margin-left: 200px;
+    height: 280px;
+    flex-grow: 4;
+    font-size: 15px;
+  }
+  img{
+    height: 250px;
+    margin-left: 30px;
+  }
+  .container2 {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+  }
+  #third-box{
+    margin-left: 50px ;
+    
+    width: 10px;
+    height: 250px;
+    flex-grow: 2;
+  }
+  #fourth-box{
+    margin-left: 200px;
+    height: 250px;
+    flex-grow: 4;
+  }
+  
+
+  footer{
+    background-color: blueviolet;
+    height: 25px;
+    width:100%; 
+  }
+ 
+footer ul li{
+    display: inline-block;
+    padding-right: 80px;
+    margin: 0 5px;
+    
+}
+footer ul li .left{
+  float: left;
+}
+footer ul li .right{
+  float: right;
+}
+footer ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:footer{
+    color: rgb(183, 252, 229);
+}
+  
